@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div style="display: flex;">
+            <h1 class="sample_text">Sample</h1><h1>Site</h1>
+        </div>
+        <img src="img/shopping-cart.png" class="cart_img" onclick="show_cart()">
+    </nav>
+    <hr>
+    <div class="slide_show" id="img_slide">
+        <img class="mySlides" src="img/img1.png" style="width:100%">
+        <img class="mySlides" src="img/img2.png" style="width:100%">
+        <img class="mySlides" src="img/img3.png" style="width:100%">
+
+        <button class="changeL_img" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="changeR_img" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <div id="show_item">
+
+    </div>
+    <div id="cart">
+
+    </div>
+</body>
+        <script src="script.js"></script>
+</html>
